@@ -3,7 +3,7 @@
 A responsive and dynamic **Weather Web Application** built with **Django**, which fetches real-time weather data using **web scraping techniques**. This app allows users to get weather updates for any city with a clean and user-friendly interface.
 
 ---
-![Banner](relative/path/to/image.png)
+![Banner](https://github.com/ShivendraSinha418/Weather_application/blob/main/weather_app_banner.jpg)
 
 ## 🚀 Features
 
