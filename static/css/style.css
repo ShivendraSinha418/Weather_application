@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background: linear-gradient(
+        to bottom right, 
+        rgb(102, 89, 102),
+        rgb(252, 255, 255)
+    );
+}
+.searchbar{
+    width: 100vw;
+    height: 20vh;
+    background: linear-gradient(to bottom right, rgb(40, 41, 40), rgb(61, 61, 60));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 50vw;
+    height: 8vh;
+    border-radius: 25px;
+    padding-left: 4%;
+}
+button{
+    width: 10vw;
+    height: 8vh;
+    border-radius: 25px;
+}
+.main{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+.current{
+    width: 25%;
+    height: 90%;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: linear-gradient(
+        to bottom right,
+        rgb(212, 206, 206),
+        rgb(237, 223, 240),
+        rgb(182, 221, 233)
+    );
+}
+.update{
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.update:nth-child(1){height: 20%; font-size: 2rem;}
+.update:nth-child(2){height: 25%; ;}
+.update:nth-child(2) img{ width: 25%; aspect-ratio: 1/1;}
+.update:nth-child(3){height: 20%; font-size: 1.5rem}
+.update:nth-child(4){height: 20%; font-size: 1.3rem;}
+.update:nth-child(5){height: 15%; border-bottom: none; font-size: 1.2rem;}
+.hourly_status{
+    width: 55%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.hourly_update {
+    width: 18%;
+    height: 60%;
+    border-radius: 20px;
+    border: 1px solid black;
+    background: linear-gradient(
+        to bottom right,
+        rgb(247, 247, 247),
+        white
+    );
+}
+.time{
+    height: 40%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    align-content: center;
+}
+.temp{
+    height: 30%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    align-content: center;
+}
+.feels{
+    height: 30%;
+    text-align: center;
+    align-content: center;
+}
