@@ -30,7 +30,7 @@ _________________________________________________________
 
 ## 📸 Screenshots
 
-![Alt Text](relative/path/to/image.png)
+![Alt Text](https://github.com/ShivendraSinha418/Weather_application/blob/main/weather_app.jpg)
 
 ---
 
